@@ -4221,7 +4221,7 @@ index 0000000..91250d5
 +	if (mxml_bad_char(ch))
 +	{
 +	  mxml_error("Bad control character 0x%02x not allowed by XML standard!",
-+        	     ch);
++        ch);
 +	  return (EOF);
 +	}
 +        else if (ch >= 0xd800 && ch <= 0xdbff)
